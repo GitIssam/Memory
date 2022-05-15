@@ -1,0 +1,48 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-drag: none;
+    background-color: white;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .pair {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  
+  .noClick {
+    pointer-events: none;
+  }
+  
+  .back {
+    content: url("https://pbs.twimg.com/profile_images/1466801030927167489/nhQdUQuu_400x400.jpg");
+    background-color: transparent;
+  }
+  
+  .impair {
+    background-color: red;
+  }
+  
+  #main {
+    width: 100%;
+    margin: 1% auto 1% auto;
+    border: 1px solid black;
+  }
+  
+  #mainContainer {
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
